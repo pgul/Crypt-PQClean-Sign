@@ -16,7 +16,7 @@ INSTALLATION
 
 To install this module type the following:
 
-   git submodule update --init
+   git submodule update --init # or git clone https://github.com/PQClean/PQClean.git pqclean
    perl Makefile.PL
    make
    make test
