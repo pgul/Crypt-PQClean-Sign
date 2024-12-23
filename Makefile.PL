@@ -5,7 +5,7 @@ WriteMakefile(
     VERSION_FROM => 'lib/Crypt/PQClean/Sign.pm',
     LIBS         => '',
     INC          => '-Ipqclean/common',
-    CCFLAGS      => '-o $@ -g -O0',
+    CCFLAGS      => '-o $@',
     OBJECT       => 'PQClean.o ' . join(' ', map { s/c$/o/r }
                         <pqclean/crypto_sign/falcon-512/clean/*.c>,
                         <pqclean/crypto_sign/falcon-1024/clean/*.c>,
