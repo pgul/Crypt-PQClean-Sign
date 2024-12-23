@@ -1,0 +1,7 @@
+Changes
+PQClean.xs
+Makefile.PL
+MANIFEST
+README
+t/falcon512.t
+lib/Crypt/PQClean/Sign.pm
