@@ -3,7 +3,7 @@ package Crypt::PQClean::Sign;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(
